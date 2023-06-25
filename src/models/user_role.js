@@ -3,11 +3,11 @@ module.exports = (sequelize, DataTypes) => {
   const User_Role = sequelize.define(
     "User_Role",
     {
-      user_id: {
+      userId: {
         type: DataTypes.INTEGER,
         allowNull: false,
       },
-      role_id: {
+      roleId: {
         type: DataTypes.INTEGER,
         allowNull: false,
       },
